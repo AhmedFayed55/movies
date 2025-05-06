@@ -1,16 +1,33 @@
-# movies
+📱 Flutter Movie App Overview
 
-A new Flutter project.
+🚀 Features & Technologies Used
 
-## Getting Started
+✅ Team-Based Project
+First collaborative Flutter project developed with a team, focusing on clean structure and task distribution.
 
-This project is a starting point for a Flutter application.
+✅ State Management with Cubit
+Managed app states using Cubit for better scalability, testability, and UI reactivity.
 
-A few resources to get you started if this is your first Flutter project:
+✅ HTTP & REST API Integration
+Fetched movie data from an external API using the http package with proper error handling and data parsing.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+✅ Offline Support with Hive
+Cached movies locally using Hive to allow offline access and reduce repeated network calls.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+✅ Google Sign-In & Authentication
+Integrated Google sign-in for secure and seamless user authentication.
+
+✅ Responsive UI with Custom Widgets
+Used carousel_slider, toggle_switch, and flutter_native_splash to enhance UI/UX and support all screen sizes.
+
+✅ Optimized Image Loading
+Implemented cached_network_image to efficiently load and cache movie posters.
+
+✅ Connectivity Awareness
+Used connectivity_plus to handle online/offline states gracefully.
+
+✅ External Links with URL Launcher
+Allowed users to open external movie trailers or websites using url_launcher.
+
+✅ Localization (Arabic & English)
+Provided full support for Arabic and English using Flutter localization.
